@@ -1,6 +1,10 @@
+var msg = new SpeechSynthesisUtterance();
+msg.text = "Welcome to the chatbot";
+
+window.speechSynthesis.speak(msg);
 let name = prompt("What is  Your Name")
 
-alert(`Hello ${name} , I Am A ChatBot Created By @ayushontop `)
+alert(`Hello ${name} , I Am A ChatBot Created By @ayushontop `);
 
 let botName = prompt("I Have No Name , Can You Please  Give Me A Name");
 
