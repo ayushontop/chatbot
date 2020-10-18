@@ -19,8 +19,8 @@ My Version Is 1.0 (Maybe Updated Soon)`)
 
 let con = prompt("In Which Country You Live?")
 
-
-if (con.includes(con.toLowerCase()){
+let conName = con.toLowerCase();
+if (conName.includes('india')){
 
   alert("ayushontop Is Also From India ")
 }
@@ -29,7 +29,7 @@ if (con.includes(con.toLowerCase()){
 //   alert("ayushontop Is Also From India ")
 // }
 
-else if (con.includes(con.toLowerCase()){
+else if (conName.includes('pakistan')){
 
   alert("Atankwadi Spotted Calling Army To Kill You")
   alert("Closing The Program..")
@@ -81,16 +81,16 @@ var hours = prompt("How many hours you code everyday?")
 hoursInt = parseInt(hours)
 
 if(hoursInt>0){
-  if(hoursInt>8){
+  if(hoursInt>=8){
     alert("That is insane amount of time you need rest don't burn yourself out")
 }
-  else if(hoursInt>6 && hoursInt<8){
+  else if(hoursInt>=6 && hoursInt<8){
      alert("That too much coding you need some rest but your dedication is awesome")
   }
-  else if(hoursInt>3 && hoursInt<6){
+  else if(hoursInt>=3 && hoursInt<6){
      alert("Very nice you are doing really well")
   }
-  else if(hoursInt>1 && hoursInt<3){
+  else if(hoursInt>=1 && hoursInt<3){
      alert("Good work but you can do much better than this")
   }
   else if(hoursInt>0 && hoursInt<1){
