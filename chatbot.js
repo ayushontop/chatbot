@@ -1,3 +1,5 @@
+
+window.onload = function () {
 var msg = new SpeechSynthesisUtterance();
 msg.text = "Welcome to the chatbot";
 
@@ -101,3 +103,5 @@ else{
   alert('Invalid Input')
 }
 alert("Thanks For Using My Programm\nPlease also folow me on Instagram @ayushontop")
+  
+}
