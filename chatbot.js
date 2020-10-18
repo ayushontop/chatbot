@@ -19,59 +19,85 @@ My Version Is 1.0 (Maybe Updated Soon)`)
 
 let con = prompt("In Which Country You Live?")
 
-if (con.includes("india")){
+
+if (con.includes(con.toLowerCase()){
 
   alert("ayushontop Is Also From India ")
 }
 
-else if (con.includes("India")){
-  alert("ayushontop Is Also From India ")
-}
+// else if (con.includes("India")){
+//   alert("ayushontop Is Also From India ")
+// }
 
-else if (con.includes("Pakistan")){
+else if (con.includes(con.toLowerCase()){
 
   alert("Atankwadi Spotted Calling Army To Kill You")
   alert("Closing The Program..")
   alert("🔫🔫🔫")
 }
 
-else if (con.includes("pakistan"))
-{
-  alert("Atankwadi Spotted Calling Army To Kill You")
-  alert("Closing The Program..")
-  alert("🔫🔫🔫")
-}
+// else if (con.includes("pakistan"))
+// {
+//   alert("Atankwadi Spotted Calling Army To Kill You")
+//   alert("Closing The Program..")
+//   alert("🔫🔫🔫")
+// }
 else {
   alert(`${con} Is A Good Country `)
 }
 var lang = prompt("Which Is Your Favourite Programming Language?")
-let lang1 = lang.toUpperCase()
+let lang1 = lang.toLowerCase()
 
-  if (lang1.includes("YTHON")){
+if (lang1.includes("ython")){
     alert("Python Is A Good Language 😅\n ayushontopIs Expert In Python 👨‍💻")
 }
-else if (lang1.includes("AND")){
+else if (lang1.includes("and")){
     alert("Android Developer Spotted 🔫\nHands Up 🙃")
 }
-else if (lang1.includes("SCRIPT")){
+else if (lang1.includes("script")){
     alert("Scripts are love 🤯\nHands Up  ")
 }
-else if (lang1.includes("SSEMBLY")){
+else if (lang1.includes("ssembly")){
     alert("Itni mehnat kese bhai 😓\n")
 }
-else if (lang1.includes("TML")){
+else if (lang1.includes("tml")){
     alert("Nasa Hacker Spotted.. Well I know you are a graphic desinger too 😶🔫\nHands Up 🙃")
 }
-else if (lang1.includes("C")){
+else if (lang1.includes("c")){
     alert("You Are Faster Than Python 🐍")
 }
 else if (lang.includes("++")){
     alert("WELL MY memory game is strong too ")
 }
-else if (lang.includes("ASH")){
+else if (lang.includes("ash")){
     alert("Hacker Spotted 😱")
 }
 else {
   alert(`You are one of the smartest person on earth😇😇`)
+}
+
+//another question 
+var hours = prompt("How many hours you code everyday?")
+hoursInt = parseInt(hours)
+
+if(hoursInt>0){
+  if(hoursInt>8){
+    alert("That is insane amount of time you need rest don't burn yourself out")
+}
+  else if(hoursInt>6 && hoursInt<8){
+     alert("That too much coding you need some rest but your dedication is awesome")
+  }
+  else if(hoursInt>3 && hoursInt<6){
+     alert("Very nice you are doing really well")
+  }
+  else if(hoursInt>1 && hoursInt<3){
+     alert("Good work but you can do much better than this")
+  }
+  else if(hoursInt>0 && hoursInt<1){
+     alert("You have to work more hard than this but you are consistent")
+  }
+}
+else{
+  alert('Invalid Input')
 }
 alert("Thanks For Using My Programm\nPlease also folow me on Instagram @ayushontop")
