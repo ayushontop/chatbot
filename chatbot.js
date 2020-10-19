@@ -87,7 +87,7 @@ if(hoursInt>0){
     alert("That is insane amount of time you need rest don't burn yourself out")
 }
   else if(hoursInt>=6 && hoursInt<8){
-     alert("That too much coding you need some rest but your dedication is awesome")
+     alert("That's too much coding you need some rest but your dedication is awesome")
   }
   else if(hoursInt>=3 && hoursInt<6){
      alert("Very nice you are doing really well")
@@ -102,6 +102,22 @@ if(hoursInt>0){
 else{
   alert('Invalid Input')
 }
+  
+
+let interest = prompt('Which field are you interested in? \n 1) Android development \n 2) Web Development \n 3) Game Development \n 4) Competitve Programming \n (Enter number)')
+if(interest==='1'){
+  alert('Android is Awesome 📲\nKeep Coding')
+}
+else if(interest==='2'){
+  alert('Web development is Cool buddy 💻\nKeep Coding')
+}
+else if(interest==='3'){
+  alert("Game development is best 🎮\nKeep Coding")
+}
+else{
+  alert('Invalid Input');
+}
+  
 alert("Thanks For Using My Programm\nPlease also folow me on Instagram @ayushontop")
   
 }
