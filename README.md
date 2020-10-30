@@ -1,5 +1,4 @@
 
-#chatbot added
 
-#inception horn added
 
+a computer program designed to simulate conversation with human users, especially over the internet
