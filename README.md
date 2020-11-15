@@ -1,6 +1,5 @@
-chatbot and inception button with keyframes
-Feel free to contribute
-contributing guidelines will be updated soon
-Free for contribution 
-open for all
 
+
+
+
+a computer program designed to simulate conversation with human users, especially over the internet
