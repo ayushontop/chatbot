@@ -1,5 +1,6 @@
 
-window.onload = function () {
+window.onload = function () 
+{ 
 var msg = new SpeechSynthesisUtterance();
 msg.text = "Welcome to the chatbot";
 
